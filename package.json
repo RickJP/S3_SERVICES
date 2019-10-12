@@ -1,0 +1,16 @@
+{
+  "name": "UploadToS3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-bucket": "node ./services/create.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.543.0",
+    "dotenv": "^8.1.0"
+  }
+}
